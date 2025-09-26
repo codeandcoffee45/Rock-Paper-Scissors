@@ -1,0 +1,52 @@
+/* General body styling */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the game */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+/* Title styling */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Buttons styling */
+.choices button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Button hover effect */
+.choices button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Result text styling */
+.result p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+}
